@@ -15,4 +15,5 @@ def current_player(board)
     "X"
   elsif
     "O"
+  end
 end
