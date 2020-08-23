@@ -1,7 +1,8 @@
 def turn_count(board)
   counter = 0
-  if board.each{|token| token == ("X" || "O")}
+  do board.each{|token| token == ("X" || "O")}
     counter += 1
+  end
 end
 
 def current_player
